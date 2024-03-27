@@ -1,0 +1,47 @@
+What is Machine Learning?
+    Machine Learning is the process of inferring knowledge from data.
+    Learning - optimizing a performance criterion from the training set or past experiences to get better and better at what it does.
+Types of Machine Learning Models
+    Predictive (Supervised - input and output data)
+        Make predictions on the future
+    Descriptive (Unsupervised - only input data)
+        Gain knowledge from data
+Machine Learning = Statistical Learning
+
+Supervised Learning: Machine learning technique that uses labeled datasets to train models to classify data or predict outputs
+
+    Classification : Input -> Algorithm -> Class
+        Used to Predict categorical data. Learns a function that maps output classes from input features
+        Qualitative Output
+        Discriminant: Learning a rule from data, a function that seperates the examples of different classes.
+        Prediction : Once we have a rule that fits past data, we can make accurate predictions to classify the data.
+        Pattern Recognition: 
+            Optical Character Recognition
+            Face Recognition
+            Medical Diagnosis
+            Speech Recognition
+        Compression: Fitting rule to data gives explanation that is simpler than the data, requiring less memory to store.
+        Outlier Detection: Findings that do not obey the rule and are exceptions.
+      
+    Regression : Input -> Algorithm -> Number
+        Determine the most sutiable function that represents all the values in the dataset, which can be used to make predictions
+        Quantitative Output
+        Function Fitting
+        
+Unsupervised Learning : Learns from unlabeled data
+    Make assumption that there is a structure to the input data such that certain patterns occur more often than others
+    Only Input Data
+    Goal : find regularies in the input without explicit guidance
+    Density Estimation : In Statistics
+        The input space is structures, and certain patterns occur more often than others.
+    Clustering : In ML
+        Method for density estimation
+        Aim is to find clusters or groupings of inputs
+        
+Reinforcement Learning : Sequential learning
+    Observations -> Algorithm -> Actions
+    Output of the system is a sequence of actions
+    The policy, the sequence of the correct actions to reach the goal, is the important bit.
+    
+        
+        
